@@ -11,6 +11,25 @@ window.products = [
     {sku:"FOO129",	name:"onions",     		type:"food",	quantity:3,	price:0.4}
 ];
 
+window.products = [
+    {sku:"DK001",	name:"Navy",  	type:"Double Knitting",	length:"295", kneedle:"4", quantity:1,  price:2.19},
+    {sku:"DK002",	name:"Denim",   type:"Double Knitting",	length:"295", kneedle:"4", quantity:1,  price:2.19},
+    {sku:"DK003",	name:"Silver",  type:"Double Knitting",	length:"295", kneedle:"4", quantity:1,	price:2.19},
+    {sku:"DK004",	name:"Mustard", type:"Double Knitting",	length:"295", kneedle:"4", quantity:1,	price:2.19},
+    {sku:"AR001",	name:"Navy",    type:"Arran",	length:"196", kneedle:"5", quantity:1,	price:2.19},
+    {sku:"AR002",	name:"Denim",   type:"Arran",	length:"196", kneedle:"5", quantity:1,	price:2.19},
+    {sku:"AR003",	name:"Silver",  type:"Arran",	length:"196", kneedle:"5", quantity:1,	price:2.19},
+    {sku:"AR004",	name:"Mustard", type:"Arran",	length:"196", kneedle:"5", quantity:1,	price:2.19},
+    {sku:"CH001",	name:"Navy",    type:"Chunky",	length:"144", kneedle:"6", quantity:1,	price:2.19},
+    {sku:"CH002",	name:"Denim",   type:"Chunky",	length:"144", kneedle:"6", quantity:1,	price:2.19},
+    {sku:"CH003",	name:"Silver",  type:"Chunky",	length:"144", kneedle:"6", quantity:1,	price:2.19},
+    {sku:"CH004",	name:"Mustard", type:"Chunky",	length:"144", kneedle:"6", quantity:1,	price:2.19},
+    {sku:"XL001",	name:"Navy",    type:"XL",	length:"136", kneedle:"10", quantity:1,	price:5.29},
+    {sku:"XL002",	name:"Denim",   type:"XL",	length:"136", kneedle:"10", quantity:1,	price:5.29},
+    {sku:"XL003",	name:"Silver",  type:"XL",	length:"136", kneedle:"10", quantity:1,	price:5.29},
+    {sku:"XL004",	name:"Mustard", type:"XL",	length:"136", kneedle:"10", quantity:1,	price:5.29}
+];
+
 // Returns the product where the sku matches the supplied parameter
 function getProductBySku(sku) {
     let products = window.products.filter(product => product.sku === sku);
