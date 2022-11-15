@@ -2,19 +2,39 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Lidldi - The not so super market</title>
+        <title>Penny's Woolshop - Where there's wool there's a way!</title>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap" rel="stylesheet">
+        <!--Script to link my products/shop -->
+        <script src="js/data/products.js" type="text/javascript"></script>
 
-    <script src="js/data/products.js" type="text/javascript"></script>
-    
+        <!--link stylesheet-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--add in top navigation-->   
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="product.html">Shop</a>
+            <a href="cart.html">Cart</a>
+            <a href="contact.html">Contact</a>
+        </div>
     </head>
 
     <body>
-        <h1>Welcome</h1>
-        <p>Welcome to our humble shop</p>
+        <h1>Welcome To Penny's Woolshop</h1>
+        
+        <h2>Welcome to our little slice of wooly heaven</h2>
 
+        <div class="about">
+            <h2 onclick="window.location.href='about.html';">Click to find out about Penny's woolshop</h2>
+
+        </div>
+
+        <!--need to sort this out. should be showing on the products page-->
+        <h3>Product list</h3>
         <div id="product-list"></div>
 
-        <a href="cart.html">View your cart</a>
+        <button onclick="window.location.href='cart.html';">View your cart</a>
 
         <script src="js/global.js" type="text/javascript"></script>
     </body>
