@@ -2,9 +2,9 @@
 see the codes. In a real world example we would add in an API to verify the discount codes*/
 
 window.discounts = [
-    {code:"GIMME2",	amount:2},
-    {code:"GIMME5",	amount:5},
-    {code:"GIMME10", amount:10},
+    {code:"GIMME2",	amount:2.00},
+    {code:"GIMME5",	amount:5.00},
+    {code:"GIMME10", amount:10.00},
 ];
 
 // Returns the discount where the code matches the supplied parameter
